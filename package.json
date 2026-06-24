@@ -1,0 +1,14 @@
+{
+  "name": "bot-engage-42",
+  "version": "1.0.0",
+  "description": "Discord Auto Click Task",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "debug": "^4.3.4",
+    "discord.js-selfbot-v13": "^3.7.1",
+    "dotenv": "^16.4.5"
+  }
+}
