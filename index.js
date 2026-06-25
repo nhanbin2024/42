@@ -9,8 +9,8 @@ const TOKEN = process.env.DISCORD_TOKEN;
 const CHANNEL_ID = '954487343107166228'; 
 
 const MIN_DELAY = 10000; 
-const MAX_DELAY = 20000;
-const MAX_TASK_AGE = 180000; // 3 phút
+const MAX_DELAY = 30000;
+const MAX_TASK_AGE = 840000; // 14 phút
 
 // Tạo HTTP Server ảo để Render không quét lỗi Port và tắt Bot
 const PORT = process.env.PORT || 3000;
